@@ -27,9 +27,9 @@ import (
 	"github.com/j-keck/arping"
 	log "github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/clientv3/concurrency"
-	"go.etcd.io/etcd/pkg/transport"
+	"github.com/coreos/etcd/clientv3"
+	"github.com/coreos/etcd/clientv3/concurrency"
+	"github.com/coreos/etcd/pkg/transport"
 )
 
 var (
