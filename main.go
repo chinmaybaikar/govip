@@ -27,7 +27,7 @@ import (
 	"github.com/j-keck/arping"
 	log "github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
-	"go.etcd.io/etcd/client/v3/client"
+	"go.etcd.io/etcd/client/v3/clientv3util"
 	"go.etcd.io/etcd/client/v3/concurrency"
 	"go.etcd.io/etcd/client/pkg/transport"
 )
