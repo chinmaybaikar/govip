@@ -123,7 +123,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	cli, err := clientv3.New(clientv3.Config{
+	cli, err := client.New(client.Config{
 		Endpoints:   strings.Split(*etcdaddress, ","),
 		DialTimeout: 5 * time.Second,
 		TLS:         tlsConfig,
